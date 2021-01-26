@@ -8,7 +8,8 @@
 #include <iostream>
 
 int main(int argc, char* argv[]) {
-    std:: cout << "Hello, world!" << std::endl;
+    // Print out "Hello, world!" followed by a newline and a flush.
+    std::cout << "Hello, world!" << std::endl;
     
     return 0;
 }
