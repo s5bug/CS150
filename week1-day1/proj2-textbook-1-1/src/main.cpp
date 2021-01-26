@@ -1,8 +1,9 @@
 /*
- * Program Name: helloworld
+ * Program Name: textbook-1-1
  * Programmer Name: Aly Cerruti
- * Description: A basic C++ "Hello World" program that prints a constant string
-                to stdout.
+ * Description: A program that calculates total pay when given hours and rate
+                by the user. Adapted from "Starting Out with C++: Early Objects
+                (8th Edition)" by Tony Gaddis.
  * Date: 2021-01-26 */
 
 #include <iostream>
