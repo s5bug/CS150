@@ -6,3 +6,5 @@ coursework.
 List of targets:
 - `//week1-day1:helloworld`
 - `//week1-day1:textbook-1-1`
+- `//week2-day1:interview`
+- `//week2-day2:restaurantbill`
