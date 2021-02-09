@@ -17,9 +17,6 @@
 // Include string type
 #include <string>
 
-// Parsing numbers from input
-#include <sstream>
-
 int main(int argc, char* argv[]) {
     // Interviewee's name
     std::string name;
@@ -77,7 +74,7 @@ int main(int argc, char* argv[]) {
     std::cout << name << ", how many credits do you need to graduate? " << std::flush;
     std::string creditsToGraduateStr;
     std::getline(std::cin, creditsToGraduateStr);
-    creditsToGraduate = std::stoi(creditsToGraduateStr);
+    creditsToGraduate = std::stof(creditsToGraduateStr);
 
     // Ask interviewee for their favorite movie
     std::cout << name << ", what's your favorite movie? " << std::flush;
