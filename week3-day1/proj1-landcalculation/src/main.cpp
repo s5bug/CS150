@@ -11,6 +11,7 @@ const std::double_t sqFtPerAcre = 43560.0L;
 const std::double_t sqFtPerSqM = 10.7639L;
 
 int main(int argc, char* argv[]) {
+    // we want to measure the size of one acre
     std::double_t sizeAcres = 1.0L;
 
     std::double_t sizeSqFt = sizeAcres * sqFtPerAcre;
