@@ -8,3 +8,4 @@ List of targets:
 - `//week1-day1:textbook-1-1`
 - `//week2-day1:interview`
 - `//week2-day2:restaurantbill`
+- `//week3-day1:landcalculation`
