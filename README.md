@@ -9,3 +9,4 @@ List of targets:
 - `//week2-day1:interview`
 - `//week2-day2:restaurantbill`
 - `//week3-day1:landcalculation`
+- `//week3-day2:basketballplayerheight`
