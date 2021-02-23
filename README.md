@@ -10,3 +10,6 @@ List of targets:
 - `//week2-day2:restaurantbill`
 - `//week3-day1:landcalculation`
 - `//week3-day2:basketballplayerheight`
+- `//week4-day1:stadiumseating`
+- `//week4-day1:boxoffice`
+- `//week4-day1:celsiustofahrenheit`
