@@ -14,3 +14,4 @@ List of targets:
 - `//week4-day1:boxoffice`
 - `//week4-day1:celsiustofahrenheit`
 - `//week4-day2:lengthconversion`
+- `//week5-day1:propertytax`
