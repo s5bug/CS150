@@ -15,3 +15,5 @@ List of targets:
 - `//week4-day1:celsiustofahrenheit`
 - `//week4-day2:lengthconversion`
 - `//week5-day1:propertytax`
+- `//week6-day1:softwaresales`
+- `//week6-day2:currencydistribution`
