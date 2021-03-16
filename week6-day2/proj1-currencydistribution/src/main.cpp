@@ -44,18 +44,9 @@ int main(int argc, char* argv[]) {
 
     std::uint64_t totalCurrencyU = static_cast<std::uint64_t>(totalCurrency);
 
-    // Currency distribution is just a modified "Double Dabble" division problem!
-    // We can create a map that stores our "places": instead of powers of two, we have currency amounts.
-    // Then, totalCurrencyU holds our repeated remainder.
-    std::map<std::uint64_t, std::uint64_t, std::greater<std::uint64_t>> currencyAmounts;
     for(std::set<std::uint64_t, std::greater<std::uint64_t>>::const_iterator it = notes.cbegin(); it != notes.cend(); ++it) {
         std::lldiv_t divisionResult = std::lldiv(totalCurrencyU, *it);
-        currencyAmounts[*it] = divisionResult.quot;
+        std::cout << "$" << *it << ": " << divisionResult.quot << std::endl;
         totalCurrencyU = divisionResult.rem;
-    }
-
-    // Not allowed to use auto in this class :P
-    for(std::map<std::uint64_t, std::uint64_t, std::greater<std::uint64_t>>::const_iterator it = currencyAmounts.cbegin(); it != currencyAmounts.cend(); ++it) {
-        std::cout << "$" << it->first << ": " << it->second << std::endl;
     }
 }
