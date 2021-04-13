@@ -23,3 +23,5 @@ List of targets:
 - `//week08-day2:savingsaccountbalance`
 - `//week09-day2:caloriesburned`
 - `//week09-day2:membershipfees`
+- `//week11-day1:penniesforpay`
+- `//week11-day2:greatestleast`
