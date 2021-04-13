@@ -4,16 +4,22 @@ I am using Bazel to manage the "subproject" structure that is inherent to
 coursework.
 
 List of targets:
-- `//week1-day1:helloworld`
-- `//week1-day1:textbook-1-1`
-- `//week2-day1:interview`
-- `//week2-day2:restaurantbill`
-- `//week3-day1:landcalculation`
-- `//week3-day2:basketballplayerheight`
-- `//week4-day1:stadiumseating`
-- `//week4-day1:boxoffice`
-- `//week4-day1:celsiustofahrenheit`
-- `//week4-day2:lengthconversion`
-- `//week5-day1:propertytax`
-- `//week6-day1:softwaresales`
-- `//week6-day2:currencydistribution`
+- `//week01-day1:helloworld`
+- `//week01-day1:textbook-1-1`
+- `//week02-day1:interview`
+- `//week02-day2:restaurantbill`
+- `//week03-day1:landcalculation`
+- `//week03-day2:basketballplayerheight`
+- `//week04-day1:stadiumseating`
+- `//week04-day1:boxoffice`
+- `//week04-day1:celsiustofahrenheit`
+- `//week04-day2:lengthconversion`
+- `//week05-day1:propertytax`
+- `//week06-day1:softwaresales`
+- `//week06-day2:currencydistribution`
+- `//week07-day1:geometrycalculator`
+- `//week07-day1:freezingboiling`
+- `//week07-day2:complexifs`
+- `//week08-day2:savingsaccountbalance`
+- `//week09-day2:caloriesburned`
+- `//week09-day2:membershipfees`
