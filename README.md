@@ -25,3 +25,6 @@ List of targets:
 - `//week09-day2:membershipfees`
 - `//week11-day1:penniesforpay`
 - `//week11-day2:greatestleast`
+- `//week12-day2:lowestscoredrop`
+- `//week12-day2:markup`
+- `//week13-day1:inventory`
