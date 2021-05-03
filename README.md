@@ -28,3 +28,5 @@ List of targets:
 - `//week12-day2:lowestscoredrop`
 - `//week12-day2:markup`
 - `//week13-day1:inventory`
+- `//week14-day1:moviedata`
+- `//week14-day2:movieprofit`
